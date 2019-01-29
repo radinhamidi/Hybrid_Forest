@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23e974e9-5505-47ef-83af-fc6e46731e92" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/incremental_decision_tree-CART-Random_Forest_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VFDT/VFDT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VFDT/VFDT_Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VFDT/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VFDT/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/banner/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/madelon_test.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/madelon_train.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/madelon_train.labels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/madelon_valid.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/madelon_valid.labels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/waveform.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-0.8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_hyi-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-30.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/comparison_wsz-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-0.8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_hyi-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-15.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-30.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figures/waveform/stackedbars_wsz-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$py_test_in_vfdt_py.coverage" NAME="py.test in vfdt.py Coverage Results" MODIFIED="1546072610880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$py_test_in_rf_py.coverage" NAME="py.test in rf.py Coverage Results" MODIFIED="1543755505582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$mlp_test.coverage" NAME="mlp_test Coverage Results" MODIFIED="1546117002031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$vfdt.coverage" NAME="vfdt Coverage Results" MODIFIED="1546073250177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$test.coverage" NAME="test Coverage Results" MODIFIED="1547745274180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/incremental_decision_tree_CART_Random_Forest_python$a.coverage" NAME="a Coverage Results" MODIFIED="1546948255085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>n_values</find>
+      <find>error</find>
+      <find>err</find>
+      <find>tree</find>
+      <find>test</find>
+      <find>Hybrid Impact</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rf.py" />
+        <option value="$PROJECT_DIR$/mlp_test.py" />
+        <option value="$PROJECT_DIR$/VFDT/hybrid_mlp.py" />
+        <option value="$PROJECT_DIR$/VFDT/hybrid_lstm.py" />
+        <option value="$PROJECT_DIR$/VFDT/hybridNN.py" />
+        <option value="$PROJECT_DIR$/VFDT/utils.py" />
+        <option value="$PROJECT_DIR$/VFDT/VFDT.py" />
+        <option value="$PROJECT_DIR$/VFDT/VFDT_Node.py" />
+        <option value="$PROJECT_DIR$/a.py" />
+        <option value="$PROJECT_DIR$/vfdt.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="163" />
+    <option name="y" value="134" />
+    <option name="width" value="1440" />
+    <option name="height" value="834" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hybrid_Forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hybrid_Forest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hybrid_Forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hybrid_Forest" type="462c0819:PsiDirectoryNode" />
+              <item name="banner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hybrid_Forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hybrid_Forest" type="462c0819:PsiDirectoryNode" />
+              <item name="figures" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mlp_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mlp_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="vfdt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vfdt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in rf.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/rf.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in vfdt.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="incremental_decision_tree-CART-Random_Forest_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/vfdt.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.py.test in vfdt.py" />
+      <item itemvalue="Python.vfdt" />
+      <item itemvalue="Python.mlp_test" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.a" />
+      <item itemvalue="Python tests.py.test in rf.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.vfdt" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.mlp_test" />
+        <item itemvalue="Python tests.py.test in rf.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23e974e9-5505-47ef-83af-fc6e46731e92" name="Default" comment="" />
+      <created>1543754997846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543754997846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 15h 10m 35s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 05m 18s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 09m 48s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 10m 18s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 10m 39s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 11m 11s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 11m 45s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 12m 17s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.23 at 17h 12m 42s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_vfdt_py - 2018.12.29 at 12h 06m 58s.xml">
+      <configuration name="py.test in vfdt.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.49385476" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32963374" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.49278578" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32963374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.15298508" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" auto_hide="true" x="650" y="293" width="619" height="453" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.2739872" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32960895" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vfdt.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/default_of_credit_card_clients.csv" />
+    <entry file="file://$PROJECT_DIR$/vfdt.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/default_of_credit_card_clients.csv" />
+    <entry file="file://$PROJECT_DIR$/rf.py" />
+    <entry file="file://$PROJECT_DIR$/vfdt.py" />
+    <entry file="file://$PROJECT_DIR$/rf.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/default_of_credit_card_clients.csv" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="643" selection-start-line="643" selection-end-line="643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/default_of_credit_card_clients.csv" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="1937" column="21" selection-start-line="1937" selection-start-column="13" selection-end-line="1937" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VFDT/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1978562693/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="829" column="17" selection-start-line="829" selection-start-column="17" selection-end-line="829" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/neural_network/multilayer_perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6343">
+          <caret line="909" selection-start-line="909" selection-end-line="909" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VFDT/hybrid_lstm.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/embeddings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="473" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="499" selection-start-line="499" selection-end-line="499" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1978562693/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="5445" column="6" selection-start-line="5445" selection-start-column="6" selection-end-line="5445" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VFDT/hybridNN.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1978562693/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/sparse/coo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5837">
+          <caret line="352" column="18" selection-start-line="352" selection-start-column="18" selection-end-line="352" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/sparse/csc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/efdt.py" />
+    <entry file="file://$PROJECT_DIR$/VFDT/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/sparse/sputils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1978562693/scipy/sparse/_sparsetools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py" />
+    <entry file="file://$PROJECT_DIR$/VFDT/VFDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VFDT/VFDT_Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="2959" column="4" selection-start-line="2959" selection-start-column="4" selection-end-line="2959" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="1737" column="67" selection-start-line="1737" selection-start-column="61" selection-end-line="1737" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="696" column="19" selection-start-line="696" selection-start-column="19" selection-end-line="696" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/all.txt" />
+    <entry file="file://$PROJECT_DIR$/dataset/bank.csv" />
+    <entry file="file://$PROJECT_DIR$/dataset/agaricus-lepiota.data.txt" />
+    <entry file="file://$PROJECT_DIR$/dataset/madelon_train.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1987" selection-start-line="16" selection-start-column="1987" selection-end-line="16" selection-end-column="1987" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/waveform.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4165">
+          <caret column="112" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figures/waveform/comparison_hyi-1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf.py" />
+    <entry file="file://$PROJECT_DIR$/vfdt.py" />
+    <entry file="file://$PROJECT_DIR$/mlp_test.py" />
+    <entry file="file://$PROJECT_DIR$/.cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
